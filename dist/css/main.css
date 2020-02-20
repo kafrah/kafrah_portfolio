@@ -1,3 +1,17 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35PX;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.5s ease-out; }
+  .menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: #fff;
+    transition: all 0.5s ease-out; }
+
 * {
   box-sizing: border-box; }
 
@@ -20,7 +34,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(68, 68, 68, 0.7); }
 
 h1,
 h2,

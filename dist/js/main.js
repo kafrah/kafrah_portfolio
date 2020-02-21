@@ -1,11 +1,11 @@
 // Select DOM Items
 const menuBtn = document.querySelector
     ('.menu-btn');
-const menuBtn = document.querySelector
+const menu = document.querySelector
     ('.menu');
-const menuBtn = document.querySelector
+const menuNav = document.querySelector
     ('.menu-nav');
-const menuBtn = document.querySelector
+const menuBranding = document.querySelector
     ('.menu-branding');
 
 const navItems = document.querySelectorAll
